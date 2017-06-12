@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         permissionRequest = new PermissionRequest(this, new PermissionRequest.PermissionCallback() {
             @Override
             public void onSuccessful() {
-                Toast.makeText(MainActivity.this, "成功", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "成功修改", Toast.LENGTH_LONG).show();
             }
 
             @Override
