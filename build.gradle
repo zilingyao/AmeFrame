@@ -1,5 +1,6 @@
 //添加统一配置文件引用
 apply from: "config.gradle"
+
 buildscript {
     repositories {
         jcenter()

@@ -12,4 +12,14 @@
     <string name="permission_title_permission_rationale">权限已被拒绝</string>
     <string name="permission_message_permission_rationale">您已经拒绝过我们申请授权，请您同意授权，否则功能无法正常使用！</string>
 
+
+
+    <!-- 加载状态相关 -->
+    <string name="view_empty">没有数据~</string>
+    <string name="view_network_error">网络异常~</string>
+    <string name="view_no_network">没有网络~</string>
+    <string name="view_loading">加载中</string>
+    <string name="view_load_success">加载成功</string>
+    <string name="view_load_fail">加载失败</string>
+
 </resources>

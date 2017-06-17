@@ -8,25 +8,35 @@ ext {
                versionCode             : 1,
                versionName             : "1.0",
     ]
-
+    //support
     supportLibraryVersion       =       '25.3.1'
+    cardviewVersion             =       '25.3.1'
+
+    //test
     constraintVersion           =       '1.0.0-beta5'
     junitVersion                =       '4.12'
+    espressoVersion             =       '2.2.2'
+
+
+    //network
     retrofitVersion             =       '2.2.0'
     okhttpVersion               =       '3.6.0'
     rxjavaVersion               =       '2.0.6'
     rxandroidVersion            =       '2.0.1'
     rxCacheVersion              =       '1.8.0-2.x'
     rxCacheGsonVersion          =       '0.0.3'
-    espressoVersion             =       '2.2.2'
+
+
     gsonVersion                 =       '2.8.0'
     daggerVersion               =       '2.9'
     butterKnifeVersion          =       '8.5.1'
     frescoVersion               =       '1.2.0'
-    glideVersion                =       '3.7.0'
+    glideVersion                =       '3.8.0'
     arouterVersion              =       '1.2.0'
     arouterCompilerVersion      =       '1.1.1'
     easypermissionVersion       =       '0.3.1'
     autoScrollViewPagerVersion  =       '2.1.7'
-    okhttpVersion               =       '3.4.1'
+    loggerVersion               =       '2.1.1'
+    eventbusVersion             =       '3.0.0'
+    autolayoutVersion           =       '1.4.5'
 }

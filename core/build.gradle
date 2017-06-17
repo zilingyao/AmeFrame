@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
+
 
 android {
     compileSdkVersion rootProject.ext.android["compileSdkVersion"]
@@ -45,7 +47,11 @@ dependencies {
     })
     testCompile "junit:junit:$rootProject.junitVersion"
 
+    //design
+    compile "com.android.support:design:$rootProject.supportLibraryVersion"
+    compile "com.android.support:cardview-v7:$rootProject.supportLibraryVersion"
     compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
+
     //retrofit
     compile "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
     compile "com.squareup.retrofit2:converter-gson:$rootProject.retrofitVersion"
@@ -58,8 +64,6 @@ dependencies {
     //dagger
     compile "com.google.dagger:dagger:$rootProject.daggerVersion"
     annotationProcessor "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
-    //design
-    compile "com.android.support:design:$rootProject.supportLibraryVersion"
 
     //leak
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
@@ -72,6 +76,8 @@ dependencies {
 
     // 支持 GIF 动图，需要添加
     compile "com.facebook.fresco:animated-gif:$rootProject.frescoVersion"
+    //glide
+    compile "com.github.bumptech.glide:glide:$rootProject.glideVersion"
 
     // Arouter
     compile "com.alibaba:arouter-api:$rootProject.arouterVersion"
@@ -79,7 +85,11 @@ dependencies {
 
     //ButterKnife
     compile "com.jakewharton:butterknife:$rootProject.butterKnifeVersion"
-    //okhttp
-    compile "com.squareup.okhttp3:okhttp:$rootProject.okhttpVersion"
+    //logger
+    compile "com.orhanobut:logger:$rootProject.loggerVersion"
+    //eventbus
+    compile "org.greenrobot:eventbus:$rootProject.eventbusVersion"
+    //autolayout
+    compile "com.zhy:autolayout:$rootProject.autolayoutVersion"
 
 }
